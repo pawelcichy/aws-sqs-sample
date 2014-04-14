@@ -1,5 +1,5 @@
 {
-  "name": "awsqueue",
+  "name": "aws-sqs-console",
   "version": "0.1.0",
   "description": "amazon sqs simple console",
   "main": "app.js",
