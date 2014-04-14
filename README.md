@@ -10,7 +10,7 @@ Configuration:
 
 
 Usage:
-send message - sending a message to queue
-recv - receive a single message from queue
-help - display help
+- send message - sending a message to queue
+- recv - receive a single message from queue
+- help - display help
 
