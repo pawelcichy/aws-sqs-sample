@@ -6,7 +6,7 @@ Sample AWS SQS console for  put-receive.
 Configuration:
 - app.json - queue URL 
 
-- config.json - Amazon credientials (see: http://aws.amazon.com/sdkfornodejs/ ). The file not exists in the repo. Must be created and putted in the project root directory.
+- config.json - Amazon credientials (see: http://aws.amazon.com/sdkfornodejs/ ). The file does not exists in the repository. Must be created and putted in the project root directory.
 
 
 Usage:
