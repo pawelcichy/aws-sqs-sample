@@ -10,6 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "aws-sdk": "^2.0.0-rc13",
-    "queuemanager": "^0.2.6"
+    "queuemanager": "^0.2.6",
+    "async": "~0.7.0"
   }
 }
