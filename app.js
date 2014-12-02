@@ -8,8 +8,15 @@ var SQSConsole = require("./sqsconsole");
 var AWS_CONFIG_FILE = "./config.json";
 var APP_CONFIG_FILE = "./app.json";
 
+var EC2MCred = new AWS.EC2MetadataCredentials();
 
-AWS.config.loadFromPath(AWS_CONFIG_FILE);
+EC2MCred.refresh(function(err){
+	if(err){
+		AWS.config.loadFromPath('./config.json');		
+	}
+});
+
+//AWS.config.loadFromPath(AWS_CONFIG_FILE);
 
 var appConfig = helpers.readJSONFile(APP_CONFIG_FILE);
 
