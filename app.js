@@ -12,7 +12,7 @@ var EC2MCred = new AWS.EC2MetadataCredentials();
 
 EC2MCred.refresh(function(err){
 	if(err){
-		AWS.config.loadFromPath('./config.json');		
+		AWS.config.loadFromPath(AWS_CONFIG_FILE);		
 	}
 });
 
