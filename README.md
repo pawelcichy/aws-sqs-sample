@@ -1,4 +1,4 @@
-aws-sqs-sample5
+aws-sqs-sample
 ==============
 
 Sample AWS SQS console for  put-receive.
